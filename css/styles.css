@@ -19,7 +19,7 @@
 }
 
 .product-banner {
-  height: 100vh;
+  height: 50vh;
   background: linear-gradient(rgb(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url("../bg.jpg");
   background-size: cover;
   background-position: center;
