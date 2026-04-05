@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="icon" type="image/x-icon" href="printer.ico" />
+    <link rel="icon" type="image/png" href="printer.ppg" />
+    <link rel="apple-touch-icon" type="image/png" href="printer.png" />
+    <!-- For Apple devices -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg border-body shadow-lg fixed-top" style="
+        background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.26));
+        " data-bs-theme="btn-outline-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: rgb(255, 255, 255)" href="index.html">UP RPL</a>
+            <button class="navbar-toggler btn btn-lg btn-outline-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item me-3">
+                            <a class="nav-link text-secondary" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="product.html" class="nav-link text-secondary">Produk</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="promo.html" class="nav-link text-secondary">Promo</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="#" class="nav-link active text-light"><i class="bi bi-cart"></i> Keranjang</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Banner Start -->
+    <section id="Home">
+        <div class="container-fluid product-banner d-flex align-items-center justify-content-center">
+            <div class="container">
+                <h1 class="text-light text-center mb-1">
+                    Mari Belanja!
+                </h1>
+                <div class="col-md-8 offset-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner End -->
+
+    <!-- Cart Section Start -->
+    <section>
+        <div class="container-fluid py-5">
+            <div class="container">
+                <h2 class="text-center mb-4"><i class="bi bi-cart"></i> Keranjang Belanja</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Pesanan</th>
+                                <th scope="col">Harga</th>
+                                <th scope="col">Jumlah</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Contoh item keranjang -->
+                            <tr style="vertical-align: middle;">
+                                <td>
+                                    <a href="Product/Print/print-hitam-putih.jpg" data-lightbox="cart"
+                                        data-title="Print Hitam Putih">
+                                        <img src="Product/Print/print-hitam-putih.jpg" alt="Print Hitam Putih"
+                                            class="img-thumbnail" style="width: 80px; height: 80px; object-fit: cover;">
+                                    </a>
+                                </td>
+                                <td>Print A4 - Hitam Putih</td>
+                                <td>Rp 500</td>
+                                <td>2</td>
+                                <td>Rp 1.000</td>
+                            </tr>
+                            <tr>
+                                <th colspan="4">Total : </th>
+                                <th>Rp 1.000</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button class="btn btn-success text-light">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cart Section End -->
+
+    <!-- Subscribe Section Start-->
+    <section id="Subscribe">
+        <div class="container-fluid py-5 footer">
+            <div class="container">
+
+                <h5 class="text-center text-light mb-3">Temui Kami</h5>
+                <div class="d-flex justify-content-center mb-5" style="gap: 70px;">
+                    <a href="#" target="_blank" class="social-icon">
+                        <i class="bi bi-link"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+                <h5 class="text-center text-light mb-1">Subscribe</h5>
+                <p class="text-center text-muted mb-3">Untuk informasi tentang promo</p>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Ketikkan Email">
+                            <button class="btn btn-warning text-light">Subcribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Subscribe Section End-->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark container-fluid text-light py-4">
+        <div class="container">
+            <div class="row text-center text">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5 class="fw-bold">Unit Pelayanan RPL</h5>
+                    <p class="text-secondary small">Tempat ngeprint dengan pelayanan terbaik dan harga terjangkau.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6 class="fw-bold mb-3">Navigasi</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#Home" class="text-secondary text-decoration-none">Home</a></li>
+                        <li><a href="product.html" class="text-secondary text-decoration-none">Produk</a></li>
+                        <li><a href="#Promo" class="text-secondary text-decoration-none">Promo</a></li>
+                        <li><a href="404.html" class="nav-link text-secondary"><i class="bi bi-cart"></i> Keranjang</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Kontak</h6>
+                    <ul class="list-unstyled text-secondary small">
+                        <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Tepat disebelah lab RPL 1 atau lantai
+                            diatas Aula.
+                        </li>
+                        <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 881 0366 07516</li>
+                        <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 838 6630 2815</li>
+                        <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 858 5279 5185</li>
+                        <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 819 9994 6978</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i>uprpl@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary mt-4 mb-3">
+            <p class="text-center text-secondary small mb-0">&copy; 2026 UP RPL. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
